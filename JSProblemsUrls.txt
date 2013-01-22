@@ -1,3 +1,10 @@
-1 (Kite Flying): http://jsfiddle.net/dbousamra/HeVaG/1/
+1 (Kite Flying): http://jsfiddle.net/dbousamra/HeVaG/
 
-2 (Bangalore Traffic): http://jsfiddle.net/dbousamra/Tb4K6/1/
+2 (Bangalore Traffic): http://jsfiddle.net/dbousamra/Tb4K6/
+
+3 (Auto Rickshaw Meter): http://jsfiddle.net/dbousamra/vkBMB/
+
+4 (Indian Currency): http://jsfiddle.net/dbousamra/xpCNY/
+
+5 (Multi-Language Advertisement): http://jsfiddle.net/dbousamra/fE7u4/
+
