@@ -1,0 +1,8 @@
+Assignment 1 -Social and Economic Justice
+-----------------------------------------
+
+I enjoyed all of these videos. In particular, _Michael Lewis'_ baccalaureate ceremony speech resounded most with myself. I am guilty of winning the lottery, the day that I was born. I had smart, loving parents, a solid education and lived in an environment designed almost exclusively to help me succeed. Had I been born elsewhere, I can confidently say my outcome would have been less fortunate. 
+
+The comments _Michael Lewis'_ made about remembering that often - but not always - it's not your net product or singular impact that determines your status, but one of the universes determination. I can honestly say over the past couple of years this has been something I've been trying to push to the forefront of my mind when interacting with others. I try to consider others position and whether my position with regards to them is warranted. 
+
+I did however take issue with some of other videos (_Michael Moore's_ _Bowling for Columbine_ video, and the clip from _Gandhi_), though not neccessarily with regards to their meanings or motives. My issue with them is that they are opinion pieces taken from films designed methodically, and very carefully, to cause a specific impact on the viewer - and in _Bowling for Columbine's case_ - oversimplfying situations if need be. They are not pure, unbiased journalistic pieces. They're excerpts from films, and due to many factors, have to make some generalisation on a very complex time in history. Do not however think that the messages they conveyed did not resound with me, and that I am a heartless person - I just think that these horrible events deserve more intense deconstruction than a movie can provide.

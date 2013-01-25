@@ -1,33 +1,21 @@
-var validDenominations = [5, 10, 20, 50, 100, 500, 1000];
-
-function countMoney(input) {
-  var sum = 0;
-  for (var i = 0; i < input.length; i++) {
-    if (!_(validDenominations).contains(input[i])) {
-      break;
-    } else {
-      sum += input[i];   
-    }
+function computeAutoFare(d, w, n) {
+  var baseFare = 20 + 8 * (d-1) + 4 * w;
+  if (n) { 
+    return baseFare + (0.50 * baseFare); 
   }
-  return sum;
+  else { 
+    return baseFare; 
+  }
 }
 
 //--- SPECS -------------------------
-describe("The Indian money counter", function () {
-
-  it("Given input denominations 10, 20, 100, the calculated amount should be 130", function () {
-    expect(countMoney([10, 20, 100])).toEqual(130);
+describe("The auto fare calculator", function () {
+    
+  it("Given the kilometers travelled is 6, and the minutes spent waiting in traffic is 8, in day time.", function () {
+    expect(computeAutoFare(6, 8, false)).toBe(92);
   });
-
-  it("Given input denominations 20, 50, 10, 20, 13, 500, the calculated amount should be 100", function () {
-    expect(countMoney([20, 50, 10, 20, 13, 500])).toEqual(100);
-  });
-  
-  it("Given input denominations 1, 10, 20 the calculated amount should be 0", function () {
-    expect(countMoney([1, 10, 20])).toEqual(0);
-  });
-  
-  it("Given input denominations 10, 20, 1, the calculated amount should be 30", function () {
-    expect(countMoney([10, 20, 1])).toEqual(30);
+    
+  it("Given the kilometers travelled is 3.5, and the minutes spent waiting in traffic is 4, in night time.", function () {
+    expect(computeAutoFare(3.5, 4, true)).toBe(84);
   });
 });

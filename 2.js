@@ -10,7 +10,23 @@ function isTrafficJam(numberOfAutoRickshaws, isAfterEightPm) {
           answer = true; 
         }
     }
-    writeAnswer(answer);
+    return answer;
 }
 
-isTrafficJam(30, false);
+writeAnswer(isTrafficJam(30, false));
+
+//--- SPECS -------------------------
+describe("The auto fare calculator", function () {
+    
+  it("Given 30 rickshaws on road, at 3pm, isTrafficJam should return false", function () {
+    expect(isTrafficJam(30, false)).toBe(false);
+  });
+    
+  it("Given 41 rickshaws on road, at 3pm, isTrafficJam should return true", function () {
+    expect(isTrafficJam(41, false)).toBe(true);
+  });
+  
+  it("Given 60 rickshaws on road, at 10pm, isTrafficJam should return false", function () {
+    expect(isTrafficJam(60, true)).toBe(false);
+  });
+});

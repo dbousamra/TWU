@@ -4,21 +4,32 @@ function writeAnswer(answer) {
 }
 
 function kiteGame(numberOfKites) {
-    var playedGame = _.range(1, 10).map(audienceReact)
+    var playedGame = _.range(1, numberOfKites + 1).map(audienceReact)
     writeAnswer(playedGame.join("\n"))
 }
 
 function audienceReact(kite) {
-    return (kite % 3 === 0 ? 'Peche! ' : '') + (kite % 5 === 0 ? 'Ipo kaate! ' : '') || kite;
+    return (kite % 3 === 0 ? 'Peche! ' : '') + (kite % 5 === 0 ? 'Ipo kaate! ' : '') || kite.toString();
 }
 
 kiteGame(100);
 
-/*
-Comments:
-
-The testability of this solution is better than the other solution I provided, because the core logic in determining what people say, is decoupled from presentation. One can now test the logic on it's own. It also uses higher order functions and is purely immutable (another testing win yay!). Yes it's just a simple exercise, but may as well do it right.
-
-Downside is it's not pure JS (though you could implement the HOF's pretty easily).
-
-*/
+//--- SPECS -------------------------
+describe("The kite game simulation", function () {
+    
+  it("Given the 5th kite, the audience should shout Ipo Kaate!", function () {
+    expect(audienceReact(5)).toBe("Ipo kaate! ");
+  });
+    
+  it("Given the 15th kite, the audience should shout Peche! Ipo Kaate!", function () {
+    expect(audienceReact(15)).toBe("Peche! Ipo kaate! ");
+  });
+    
+  it("Given the 3rd kite, the audience should shout Peche! Ipo Kaate!", function () {
+    expect(audienceReact(3)).toBe("Peche! ");
+  });
+    
+  it("Given the 7th kite, the audience should shout 7", function () {
+    expect(audienceReact(7)).toBe("7");
+  });
+});
