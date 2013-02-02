@@ -23,19 +23,38 @@ WHERE book.title LIKE "The Hobbit";
 37
 ```
 
-
 ####Query:
 ```sql
 SELECT COUNT(*)
 FROM member
 WHERE member.id NOT IN
-    (SELECT member_id 
-     FROM checkout_item)
+     (SELECT member_id 
+      FROM checkout_item)
 ```
 
 
 
 ##What books and movies aren’t checked out?
+
+####Answer:
+```
+Fellowship of the Ring
+1984
+Tom Sawyer
+Catcher in the Rye
+To Kill a Mockingbird
+Domain Driven Design
+```
+
+####Query:
+```sql
+SELECT title 
+FROM book 
+WHERE book.id NOT IN 
+     (SELECT book_id 
+      FROM checkout_item 
+      WHERE book_id IS NOT NULL)
+```
 
 
 ##Add the book 'The Pragmatic Programmer', and add yourself as a member. Check out 'The Pragmatic Programmer'. Use your query from question 1 to verify that you have checked it out. 
