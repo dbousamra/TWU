@@ -5,7 +5,7 @@
 ####Answer:  
 ```
 Anand Beck
-``` 
+```
 
 ####Query:  
 
@@ -14,7 +14,7 @@ SELECT name
 FROM member INNER JOIN checkout_item, book
   ON checkout_item.book_id = book.id AND checkout_item.member_id = member.id
 WHERE book.title LIKE "The Hobbit";
-```  
+```
 
 ##How many people have not checked out anything? 
 
@@ -89,7 +89,7 @@ VALUES ('Dominic Bou-Samra');
 INSERT INTO checkout_item (member_id, book_id)
 VALUES(
   (SELECT id from member where name  = 'Dominic Bou-Samra'), 
-  (SELECT id from book  where title = 'Pragmatic Programmer')	
+  (SELECT id from book  where title = 'Pragmatic Programmer')  
 )
 ```
 
