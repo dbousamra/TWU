@@ -89,7 +89,7 @@ VALUES ('Dominic Bou-Samra');
 INSERT INTO checkout_item (member_id, book_id)
 VALUES(
   (SELECT id from member where name  = 'Dominic Bou-Samra'), 
-  (SELECT id from book  where title = 'Pragmatic Programmer')	
+  (SELECT id from book  where title = 'Pragmatic Programmer')  
 )
 ```
 
