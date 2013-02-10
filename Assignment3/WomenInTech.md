@@ -23,6 +23,4 @@ I'm not sure if I'm misinterpreting this question or am not realising something 
 Are men or women more likely to remain quiet?
 =============================================
 
-
 Again, I think it depends on the person and the group he/she is with. Gender would make no difference.
-======================================================================================================
