@@ -15,3 +15,12 @@ Thankfully this is a trend on it's way out and people are taking notice and voic
 
 The technology industry in it's current form (especially software) is between 20 and 40 years old, with only the last 20 having seen standardized/formalized computing roles become commonplace. I think it's possible that people still view the industry with some mystique and incredibility that might once have been associated with things like medicine (a long time ago). People don't always understand the roles people perform in these industries, and immediately dismiss them. I think this goes for men and women both, but the reason I think it may contribute more strongly to the lack of women in tech, is that traditional gender roles are enforced during childhood too. In turn, because many girls may not have been exposed to computers as much as boys had, they never understood the industry at even a basic level. I don't think it's a highly responsible factor, but I think in time, as IT matures, naturally more and more people (and women) will see it as a viable career.
 
+Are men or women more likely to speak up in a group discussion even if uncertain of an answer?
+==============================================================================================
+
+I'm not sure if I'm misinterpreting this question or am not realising something simple, but why would gender make a difference in a group discussion. I think it depends entirely on the personality of the person, how comfortable he/she is with the group, the topic at hand, and the people she is in a group discussion with. I personally don't think gender enters into it at all.
+
+Are men or women more likely to remain quiet?
+=============================================
+
+Again, I think it depends on the person and the group he/she is with. Gender would make no difference.
